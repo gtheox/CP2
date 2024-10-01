@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .cabecalho {
+    @apply bg-blue-500 text-white text-4xl font-bold p-6 w-full h-[25vh] m-auto text-center;
+  }
+
+  .rodape {
+    @apply bg-gray-800 text-white text-lg p-4 w-full text-center;
+  }
+}
